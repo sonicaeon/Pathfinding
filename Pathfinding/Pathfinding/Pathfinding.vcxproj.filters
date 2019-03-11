@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{9dd41e20-cfb2-4178-860b-576dcdf7ccaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{fe1e6f47-0634-4455-88a0-31073f8bd60e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="BreadthFirstSearch.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="GreedyBestFirst.cpp" />
+    <ClCompile Include="PathfindingGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="BreadthFirstSearch.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="GreedyBestFirst.h" />
+    <ClInclude Include="PathfindingGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Content\Grid.grid">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\NoPathGrid.grid">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\2D-Grass.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Stone-Path.jpg">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Wall-Tree4.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\End-Flag.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Start-Flag.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
